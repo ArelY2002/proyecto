@@ -46,7 +46,6 @@ if(c<10){
 }while(c<10);
 cout<<endl;
 c=0;
-//Zam
 
 return 0;
 
