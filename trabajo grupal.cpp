@@ -10,6 +10,38 @@ float suma[10],resta[10],producto[10],division[10];
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Rosa Antonella Posso Becerra
+//Suma de la matriz1 y matriz2 
+
+ cout<<"la matriz suma es:"<<endl<<"suma[10]=";
+do{
+cout<<matriz1[c]+matriz2[c];
+c=c+1;
+if(c<10){
+ cout<<" - ";
+}
+ 
+}while(c<10);
+cout<<endl;
+c=0;
+//Zam
+
 return 0;
 
 }
