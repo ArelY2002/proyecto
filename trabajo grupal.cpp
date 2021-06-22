@@ -41,7 +41,19 @@ if(c<10){
 cout<<endl;
 c=0;
 //Zam
-
-return 0;
-
+//Andrea Palacios Becerra
+//división de la matriz1 para la matriz2
+ 
+ cout<<"la matriz division es:"<<endl<<"division[10]=";
+do{ 
+cout<<matriz1[c]/matriz2[c];
+c=c+1;
+if(c<10){
+   cout<<"  - ";
+}
+   
+}while(c<10); 
+cout<<endl;
+c=0;
+   return 0;
 }
